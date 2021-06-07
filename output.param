@@ -1,0 +1,26 @@
+X_IMAGE                  Object position along x                                   [pixel]
+Y_IMAGE                  Object position along y                                   [pixel]
+NUMBER
+MAG_AUTO                 Kron-like elliptical aperture magnitude                   [mag]
+MAGERR_AUTO              RMS error for AUTO magnitude                              [mag]           
+MAG_APER(3)                 #Fixed aperture magnitude vector                           [mag]
+MAGERR_APER(3)              #RMS error vector for fixed aperture mag.                  [mag]
+KRON_RADIUS              Kron apertures in units of A or B 
+BACKGROUND               Background at centroid position                           [count]
+ALPHA_J2000              Right ascension of barycenter (J2000)                     [deg]
+DELTA_J2000              Declination of barycenter (J2000)                         [deg]
+CXX_IMAGE                Cxx object ellipse parameter                              [pixel**(-2)]
+CYY_IMAGE                Cyy object ellipse parameter                              [pixel**(-2)]
+CXY_IMAGE                Cxy object ellipse parameter                              [pixel**(-2)]
+A_IMAGE                  Profile RMS along major axis                              [pixel]
+B_IMAGE                  Profile RMS along minor axis                              [pixel]
+THETA_IMAGE              Position angle (CCW/x)                                    [deg]
+MU_MAX                   Peak surface brightness above background                  [mag * arcsec**(-2)]
+MU_THRESHOLD             Detection threshold above background                      [mag * arcsec**(-2)]
+FLAGS                    Extraction flags                                         
+FWHM_IMAGE               FWHM assuming a gaussian core                             [pixel]
+FLUX_RADIUS              #Fraction-of-light radii                                   [pixel]
+CLASS_STAR               S/G classifier output  
+#MU_MAX_MODEL             Peak model surface brightness above background            [mag * arcsec**(-2)]
+#MU_EFF_MODEL             Effective model surface brightness above background       [mag * arcsec**(-2)]
+#MU_MEAN_MODEL            Mean effective model surface brightness above background  [mag * arcsec**(-2)]                        
